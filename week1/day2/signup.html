@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Kayıt Ol</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <div class="form-container">
+    <img src="insiderlogo-img.jpg" alt="Insider Logo" class="logo" />
+
+    <div class="form-image">
+      <img src="signup-img.jpg" alt="Kayıt Görseli" />
+    </div>
+
+    <form action="#" method="post" class="form">
+      <h1>Hesap Oluştur</h1>
+
+      <div class="input-group">
+        <i class="fa fa-user icon"></i>
+        <input
+          type="text"
+          name="fullname"
+          placeholder="Ad Soyad"
+          required
+          autocomplete="name"
+        />
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-envelope icon"></i>
+        <input
+          type="email"
+          name="email"
+          placeholder="E-posta"
+          required
+          autocomplete="email"
+        />
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-lock icon"></i>
+        <input
+          type="password"
+          name="password"
+          placeholder="Şifre"
+          class="password"
+          required
+          autocomplete="new-password"
+        />
+        <i class="fa fa-eye-slash toggle-password"></i>
+      </div>
+
+      <div class="input-group">
+        <i class="fa fa-check icon"></i>
+        <input
+          type="password"
+          name="confirm-password"
+          placeholder="Şifreyi Onayla"
+          class="password"
+          required
+          autocomplete="new-password"
+        />
+        <i class="fa fa-eye-slash toggle-password"></i>
+      </div>
+
+      <button type="submit">Kayıt Ol</button>
+
+      <p class="alt-link"> Zaten hesabın var mı?<a href="login.html">Giriş Yap</a></p>
+
+      <div class="social-login">
+        <p>Sosyal medya hesaplarınızla devam edin</p>
+        <div class="icons">
+          <i class="fab fa-google" title="Google ile devam et"></i>
+          <i class="fab fa-linkedin" title="LinkedIn ile devam et"></i>
+          <i class="fab fa-instagram" title="Instagram ile devam et"></i>          
+          <i class="fab fa-facebook-f" title="Facebook ile devam et"></i>
+          <i class="fab fa-twitter" title="Twitter ile devam et"></i>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
