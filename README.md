@@ -1,10 +1,8 @@
-# Insider-Codecraft-JS-Developer-Bootcamp
+<h1 align="center"> Insider Codecraft JS Developer Bootcamp </h1>
 
-**Insider & Testinium Tech Hub** iş birliğiyle gerçekleştirilen **CodeCraft JS Developer Bootcamp Temmuz 2025** süresince yapılan günlük ödevleri içermektedir. 
+Bu repo, **Insider CodeCraft JS Developer Bootcamp Temmuz 2025** süresince yapılan ödevleri içermektedir. 
 
 ## 📅 Week 1
-
----
 
 ### ✅ Day 1 - HTML Temelleri Ödevi
 
@@ -28,13 +26,3 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 **Ödev Görselleri:**  
 
-
----
-
-✨ İncelediğiniz için teşekkür ederim. 🙏
-
----
-
-
-
-✨ İncelediğiniz için teşekkür ederim. 🙏
