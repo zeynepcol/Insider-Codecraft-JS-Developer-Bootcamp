@@ -31,3 +31,8 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 
 ![Image](https://github.com/user-attachments/assets/b940b76d-307b-43e9-bbcf-96d632410228)
+
+---
+## 🙏 Teşekkürler
+
+Bu bootcamp'e katılma hakkı verdiğiniz için ve emeği geçen herkese içtenlikle teşekkür ederim.  
