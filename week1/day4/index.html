@@ -1,1 +1,178 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>American Horror Story: Coven</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+    <header class="navbar">
+        <a href="index.html" class="logo-link">
+            <img src="./assets/logo.png" alt="AHS Logo" class="logo-img" />
+        </a>
+        <nav class="nav-links" id="navLinks">
+            <a href="#home">Anasayfa</a>
+            <a href="#characters">Karakterler</a>
+            <a href="#scene">Favori Sahne</a>
+            <a href="episodes.html">Bölümler</a>
+            <a href="about.html">Hakkımda</a>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">☰</div>
+    </header>
 
+<section class="hero" id="home">
+  <div class="hero-content">
+    
+    <div class="hero-video">
+      <iframe width="100%" height="100%" src="https://www.youtube.com/embed/SdSiIjc6-8M" 
+        title="AHS: Coven Trailer" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="hero-info">
+      <img src="./assets/poster.jpg" alt="AHS Coven Poster" class="poster" />
+      
+      <div class="description">
+        <h2>American Horror Story</h2>
+        <h3>Sezon 3</h3>
+        <p>
+          <strong>American Horror Story: Coven</strong> (Türkçesi: Amerikan Korku Hikayesi: Cadılar Meclisi), FX tarafından yayınlanan korku antoloji dizisi <em>American Horror Story</em>'nin üçüncü sezonudur. 9 Ekim 2013 - 29 Ocak 2014 tarihleri arasında yayınlanmıştır. Sezon; 2013 yılında New Orleans'taki Salem cadıları soyundan gelen meclisteki cadıların hayatta kalma mücadelesini anlatır. Ayrıca 1830'lara, 1910'lara ve 1970'lere geri dönüş yaparak sahneler de gösterir.
+        </p>
+        <p><strong>IMDb:</strong> 7.9</p>
+        <div class="hero-buttons">
+          <a href="https://www.youtube.com/watch?v=SdSiIjc6-8M" target="_blank" class="btn watch-now">▶️ Şimdi İzle</a>
+            <button onclick="toggleFavorite()" id="favBtn">❤️ Favorilere Ekle</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <section class="section container" id="characters">
+  <h2 data-aos="fade-down" class="section-title">
+    <i class="bi bi-people"></i>
+    Ana Karakterler
+  </h2>
+
+  <div class="characters">
+
+    <div data-aos="fade-down" class="character">
+      <img class="character-profile" src="./assets/SarahPaulson.jpg" alt="Sarah Paulson" />
+      <div class="character-info">
+        <h3 class="character-role">Cordelia Foxx</h3>
+        <h4 class="character-name">Sarah Paulson</h4>
+        <p class="character-desc">
+          <i class="yellow-text bi bi-arrow-right"></i>
+          Meclisin başındaki güçlü ve adil bir cadı.
+        </p>
+      </div>
+    </div>
+
+    <div data-aos="fade-down" class="character">
+      <img class="character-profile" src="./assets/TaissaFarmiga.jpg" alt="Taissa Farmiga" />
+      <div class="character-info">
+        <h3 class="character-role">Zoe Benson</h3>
+        <h4 class="character-name">Taissa Farmiga</h4>
+        <p class="character-desc">
+          <i class="yellow-text bi bi-arrow-right"></i>
+          Güçlerini yeni keşfeden ve meclise katılan genç cadı.
+        </p>
+      </div>
+    </div>
+
+    <div data-aos="fade-down" class="character">
+      <img class="character-profile" src="./assets/EvanPeters.jpg" alt="Evan Peters" />
+      <div class="character-info">
+        <h3 class="character-role">Kyle Spencer</h3>
+        <h4 class="character-name">Evan Peters</h4>
+        <p class="character-desc">
+          <i class="yellow-text bi bi-arrow-right"></i>
+          Trajik olaylar sonucu yeniden dirilen bir karakter.
+        </p>
+      </div>
+    </div>
+
+    <div data-aos="fade-down" class="character">
+      <img class="character-profile" src="./assets/LilyRabe.jpg" alt="Lily Rabe" />
+      <div class="character-info">
+        <h3 class="character-role">Misty Day</h3>
+        <h4 class="character-name">Lily Rabe</h4>
+        <p class="character-desc">
+          <i class="yellow-text bi bi-arrow-right"></i>
+          Ölüleri diriltebilen, doğayla uyum içinde yaşayan bir cadı.
+        </p>
+      </div>
+    </div>
+
+    <div data-aos="fade-down" class="character">
+      <img class="character-profile" src="./assets/EmmaRoberts.jpg" alt="Emma Roberts" />
+      <div class="character-info">
+        <h3 class="character-role">Madison Montgomery</h3>
+        <h4 class="character-name">Emma Roberts</h4>
+        <p class="character-desc">
+          <i class="yellow-text bi bi-arrow-right"></i>
+          Güce takıntılı, kibirli fakat yetenekli bir cadı.
+        </p>
+      </div>
+    </div>
+
+    <div data-aos="fade-down" class="character">
+      <img class="character-profile" src="./assets/JessicaLange.jpg" alt="Jessica Lange" />
+      <div class="character-info">
+        <h3 class="character-role">Fiona Goode</h3>
+        <h4 class="character-name">Jessica Lange</h4>
+        <p class="character-desc">
+          <i class="yellow-text bi bi-arrow-right"></i>
+          Sonsuz gençlik arayışında, meclisin eski lideri.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="scene" id="scene">
+  <h2>Favori Sahnem</h2>
+  <h3>Misty, Zoe'ye Fleetwood Mac ve Stevie Nicks'i Anlatıyor</h3>
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/WAd1QMWZ9Jw"
+      title="AHS Coven Misty Stevie Nicks" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <p class="scene-description">
+    En sevdiğim rock grubu ile en sevdiğim dizi bir arada.
+    <br /><br />
+    <em>Zoe Benson:</em> Who sings this?<br />
+    <em>Misty Day:</em> Who sings this? Fleetwood Mac! Stevie Nicks is my hero.<br />
+    <em>Zoe Benson:</em> That's Stevie Nicks from American Idol?<br />
+    <em>Misty Day:</em> Stevie Nicks. The White Witch. The only witch before you I've ever known.<br />
+    <em>Zoe Benson:</em> She's an actual witch?<br />
+    <em>Misty Day:</em> Listen to the lyrics, This song was her anthem... doesn't it just penetrate your soul and tell the truth about everything you've ever felt in your whole life?
+  </p>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-left">
+      <p class="footer-name">Zeynep Çöl</p>
+      <p class="footer-title">Computer Engineer</p>
+    </div>
+    <div class="footer-right">
+              
+      <a href="https://www.linkedin.com/in/zeynep-col/" target="_blank" class="footer-icon" title="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/zeynepcol" target="_blank" class="footer-icon" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+
+    </div>
+  </div>
+
+</footer>
+</body>
+</html>
