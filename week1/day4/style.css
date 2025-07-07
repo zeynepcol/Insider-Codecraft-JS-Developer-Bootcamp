@@ -171,6 +171,39 @@ body {
   }
 }
 
+.poster-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.poster-content {
+  text-align: center;
+  margin-top: 0; 
+
+}
+
+.poster-title {
+  font-size: 2rem;
+  color: #f39c12;
+  margin-bottom: 1rem;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 0; 
+}
+
+.poster-image {
+  max-width: 360px;
+  width: 100%;
+  border-radius: 1rem;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+}
+
+.poster-image:hover {
+  transform: scale(1.05);
+}
+
 .section-title {
   text-align: center;
   font-size: 2.2rem;
