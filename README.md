@@ -1,4 +1,4 @@
-<h1 align="center"> Insider Codecraft JS Developer Bootcamp </h1>
+<h1 align="center"> Insider CodeCraft JS Developer Bootcamp </h1>
 
 Bu repo, **Insider CodeCraft JS Developer Bootcamp Temmuz 2025** süresince yapılan ödevleri içermektedir. 
 
@@ -31,6 +31,13 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 
 ![Image](https://github.com/user-attachments/assets/b940b76d-307b-43e9-bbcf-96d632410228)
+
+---
+
+### ✅ Day 4 - 1. Hafta - Bootcamp Projesi
+
+![Image](https://github.com/user-attachments/assets/afd65e22-b32c-4aab-9512-c47ac190f008)
+
 
 ---
 ## 🙏 Teşekkürler
