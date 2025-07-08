@@ -39,6 +39,15 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 ![Image](https://github.com/user-attachments/assets/afd65e22-b32c-4aab-9512-c47ac190f008)
 
 
+
+---
+## 📅 Week 2
+
+### ✅ Day 1 - JavaScript 1.Gün Ödevi
+
+![Image](https://github.com/user-attachments/assets/dc81874a-b720-4530-b45c-e38a4b750804)
+
+
 ---
 ## 🙏 Teşekkürler
 
