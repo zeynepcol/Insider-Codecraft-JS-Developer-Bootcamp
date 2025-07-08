@@ -51,6 +51,7 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 ### ✅ Day 2 - Longest Collatz Sequence
 
+![Image](https://github.com/user-attachments/assets/9797a71d-ad65-4960-a285-a564710ea777)
 
 
 
