@@ -59,7 +59,7 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 ### ✅ Day 3 - Geri Sayım Aracı
 
-![Image]
+![Image](https://github.com/user-attachments/assets/27fef967-ba89-4c60-8973-bf6a756d8054)
 
 
 
