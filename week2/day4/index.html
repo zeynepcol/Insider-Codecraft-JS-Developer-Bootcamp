@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Görev Yönetimi</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="themeBtn"><i class="fas fa-moon"></i>Tema</button>
+  </div>
+
+  <div class="container">
+    <div class="logo">
+      <img src="assets/insider-logo.jpg" alt="Insider Logo">
+      <span>CodeCraft Bootcamp Week 2 Day 4 Task</span>
+    </div>
+
+    <h1>Gerçek Zamanlı Görev Yönetim Uygulaması</h1>
+
+    <form id="taskForm">
+      <input type="text" id="title" placeholder="Görev Başlığı *" required />
+      <textarea id="description" placeholder="Açıklama (opsiyonel)"></textarea>
+
+      <div class="priority">
+        <label>Öncelik:</label>
+        <div class="priority-options">
+          <label><input type="radio" name="priority" value="Düşük"> Düşük</label>
+          <label><input type="radio" name="priority" value="Orta"> Orta</label>
+          <label><input type="radio" name="priority" value="Yüksek"> Yüksek</label>
+        </div>
+      </div>
+
+      <button type="submit">Ekle</button>
+      <div class="error" id="errorMsg"></div>
+    </form>
+
+    <div class="filters">
+      <button id="showCompletedBtn">✔ Tamamlananları Göster</button>
+      <select id="sortPrioritySelect">
+        <option value="">Önceliğe Göre Sırala</option>
+        <option value="asc">Düşük → Yüksek</option>
+        <option value="desc">Yüksek → Düşük</option>
+      </select>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <footer>
+    Designed by Zeynep ÇÖL –
+    <a href="https://github.com/zeynepcol" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
