@@ -64,6 +64,13 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 
 ---
+### ✅ Day 4 - Gerçek Zamanlı Görev Yönetim Uygulaması  
+
+
+![Image](https://github.com/user-attachments/assets/cf0cacd2-c0f7-4d6b-ae8b-807cd677a91a)
+
+
+---
 ## 🙏 Teşekkürler
 
 Bu bootcamp'e katılma hakkı verdiğiniz için ve emeği geçen herkese içtenlikle teşekkür ederim.  
