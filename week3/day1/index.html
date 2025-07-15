@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Panel</title>
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <header>
+    <img src="assets/insider-logo.jpg" alt="Logo" id="logo" />
+    <h1>Student Management Panel</h1>
+  </header>
+
+  <main>
+    <form id="studentForm">
+      <div class="form-group">
+        <input type="number" id="studentID" placeholder="Enter Student ID" required />
+        <input type="text" id="studentName" placeholder="Enter Name" required />
+        <input type="text" id="studentSurname" placeholder="Enter Surname" required />
+        <input type="text" id="studentClass" placeholder="Enter Class (e.g. 5C)" required />
+        <input type="number" id="studentGrade" placeholder="Enter Grade" min="0" max="100" required />
+        <button type="submit" class="add-btn">Add Student</button>
+      </div>
+    </form>
+
+    <table id="studentTable">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Surname</th>
+          <th>Class</th>
+          <th>Grade</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </main>
+
+  <script src="assets/script.js"></script>
+
+  <footer>
+  <p>Designed by Zeynep ÇÖL</p>
+  <a href="https://github.com/zeynepcol" target="_blank" id="github-link" aria-label="GitHub Profile">
+    <i class="fab fa-github" id="github-icon"></i>
+  </a>
+  </footer>
+
+</body>
+</html>
