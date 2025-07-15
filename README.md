@@ -71,6 +71,15 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 
 ---
+## 📅 Week 3
+
+### ✅ Day 1 - JQuery
+
+
+![Image](https://github.com/user-attachments/assets/e22b931c-7899-4600-bc81-33ee86f6a598)
+
+
+---
 ## 🙏 Teşekkürler
 
 Bu bootcamp'e katılma hakkı verdiğiniz için ve emeği geçen herkese içtenlikle teşekkür ederim.  
