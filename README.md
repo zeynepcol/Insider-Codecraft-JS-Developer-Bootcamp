@@ -79,9 +79,12 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 ![Image](https://github.com/user-attachments/assets/e22b931c-7899-4600-bc81-33ee86f6a598)
 
 
+---
+
 ### ✅ Day 2 - JQuery Post List
 
 
+![Image](https://github.com/user-attachments/assets/18ae860a-5fc5-4a47-80ab-0fdacba0b50a)
 
 
 ---
