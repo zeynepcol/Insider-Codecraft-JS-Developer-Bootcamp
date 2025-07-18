@@ -87,6 +87,16 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 ![Image](https://github.com/user-attachments/assets/18ae860a-5fc5-4a47-80ab-0fdacba0b50a)
 
 
+
+---
+
+### ✅ Day 3 - JQuery Load Random Users 
+
+
+![Image](https://github.com/user-attachments/assets/e43437e2-d44d-431c-8cae-e0b9d289eb84)
+
+![Image](https://github.com/user-attachments/assets/e783737b-66a7-44f9-bbd3-0e6ad63a01b5)
+
 ---
 ## 🙏 Teşekkürler
 
