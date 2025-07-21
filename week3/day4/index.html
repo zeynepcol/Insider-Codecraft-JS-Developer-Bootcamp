@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SnapPick</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  </head>
+  <body>
+    <div class="toast-msg" id="toastMsg"></div>
+
+    <header class="header">
+      <div class="container header-container">
+        <a href="index.html">
+          <img src="assets/logo.png" alt="SnapPick" class="logo" />
+        </a>
+        <div class="header-buttons">
+          <button class="header-btn basket-btn">
+            <i class="fas fa-shopping-basket"></i> My Cart
+          </button>
+          <button class="header-btn fav-btn">
+            <i class="fas fa-heart"></i>My Favorites
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="section container">
+      <h1 class="page-title">SnapPick's Best Sellers</h1>
+      <div class="carousel-wrapper">
+        <div class="swiper">
+          <div class="swiper-wrapper">
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+      <div class="product-grid"></div>
+      <div class="load-more-wrapper">
+        <button class="load-more-btn" id="loadMoreBtn">
+          Show More <i class="fas fa-plus-circle "></i>
+        </button>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-container container">
+      <a href="index.html" class="footer-logo">
+        <img src="assets/logo.png" alt="SnapPick Logo">
+      </a>
+      <p class="footer-text">SnapPick</p>
+      <a href="https://github.com/zeynepcol" target="_blank" class="footer-github">
+        <i class="fab fa-github"></i> Designed by Zeynep ÇÖL
+      </a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
