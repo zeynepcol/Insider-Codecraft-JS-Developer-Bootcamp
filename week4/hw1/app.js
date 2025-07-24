@@ -1,7 +1,6 @@
 (() => {
   'use strict';
 
-  // Create HTML structure 
   const htmlContent = `
     <!DOCTYPE html>
     <html lang="tr">
