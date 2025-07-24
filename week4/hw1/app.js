@@ -18,7 +18,6 @@
 
   document.body.innerHTML = htmlContent;
 
-  // Style
   const style = document.createElement('style');
   style.textContent = `
     body {
@@ -71,7 +70,6 @@
   `;
   document.head.appendChild(style);
 
-  // constants
   const apiUrl = "https://jsonplaceholder.typicode.com/users";
   const container = document.getElementById("ins-api-users");
 
@@ -161,7 +159,6 @@
     }
   };
 
-  // First render
   renderUsers();
 
 })();
