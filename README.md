@@ -98,6 +98,20 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 ![Image](https://github.com/user-attachments/assets/e783737b-66a7-44f9-bbd3-0e6ad63a01b5)
 
 ---
+
+### ✅ Day 4 - Mini E-Ticaret / Ürün Kataloğu Uygulaması 
+
+
+
+---
+
+## 📅 Week 4
+
+### ✅ HW 1 - Kullanıcı Listesi
+
+
+
+---
 ## 🙏 Teşekkürler
 
 Bu bootcamp'e katılma hakkı verdiğiniz için ve emeği geçen herkese içtenlikle teşekkür ederim.  
