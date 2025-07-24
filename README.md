@@ -101,7 +101,7 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 ### ✅ Day 4 - Mini E-Ticaret / Ürün Kataloğu Uygulaması 
 
-
+![Image](https://github.com/user-attachments/assets/04638a9e-2b91-47fb-a1e4-744c493361b3)
 
 ---
 
@@ -109,7 +109,7 @@ Klasik örneklerden farklı olarak “Taş Devri Mağazası” temasıyla tasarl
 
 ### ✅ HW 1 - Kullanıcı Listesi
 
-
+![Image](https://github.com/user-attachments/assets/ed37de9d-f061-4fa0-b7c0-913169591fcf)
 
 ---
 ## 🙏 Teşekkürler
